@@ -2,7 +2,7 @@ from whoosh.qparser import QueryParser
 from whoosh import scoring
 from whoosh.index import open_dir
 import sys
-
+import json
 
 ix = open_dir("indexdir")
 
